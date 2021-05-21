@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Sign-up</title>
+        <link href="../style/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../style/bootstrap.min.css"/>
+    </header>
+    <body>
+        <div class="sign-up">
+                <h1>Sign up</h1>
+                <form onsubmit="store(event)" >
+                    <input type="text" placeholder="Username" name="username" id="username" pattern="^[_A-zA-Z]*((-|\s)*[_A-zA-Z])*$" required> <br>
+                    <input type="text" placeholder="Email" name="email" id = "email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required> <br>
+                    <input type="text" placeholder="Address" name="address" id="address" required> <br>
+                    <input type="number" placeholder="Phone" name="phone" id= "phone" pattern="(010|011|012)[0-9]{8}" required> <br>
+                    <input type="password" placeholder="Password" name="password" id="password" pattern="[a-zA-Z0-9]{3,10}" required> <br>
+                    <button  id="rgstr_btn" type="submit">Register</button>
+                </form>
+        </div>
+
+        <div id="div1">
+
+        </div>
+        <script src="../js/core.js"></script>
+    </body>
+</html>

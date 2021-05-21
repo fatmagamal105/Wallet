@@ -1,0 +1,229 @@
+/* Sign up page*/
+
+body {
+    font-family: sans-serif;
+    background-color: #f8edeb;
+    color: #fefae0;
+}
+
+.sign-up
+{
+    text-align: center;
+    padding : 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ccd5ae;
+}
+
+.sign-up h1
+{
+    font-size: 50px;  
+}
+
+.sign-up input
+{
+    width: 60%;
+    height: 39px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.sign-up button
+{
+    background: #1b4109d4;
+    height: 44px;
+    width: 93px;
+    border: 1px;
+    color: #fffafa;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+
+}
+
+/*Login Page*/
+
+.login{
+    text-align: center;
+    padding : 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ccd5ae;
+}
+
+.login h1
+{
+    font-size: 50px;  
+}
+
+.login input
+{
+    width: 60%;
+    height: 39px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.login button
+{
+    background: #1b4109d4;
+    height: 44px;
+    width: 93px;
+    border: 1px;
+    color: #fffafa;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.login a
+{
+    color: #1b4109d4;
+}
+/*Home*/
+/*navbar*/
+.home {
+    background-color: #f8edeb;
+}
+nav{
+    background-color: #1b4109d4;
+    color: #fefae0;
+    font-size: 20px;
+}
+.inf
+{
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #ccd5ae;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inf p{
+    font-size: 20px;
+}
+.inf a{
+    font-size: 20px;
+    color: #1b4109d4;
+}
+.inf a:hover{
+    color: #1b4109d4;
+}
+
+.body {
+    color: #323232;
+    background-color: #f8edeb;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .header {
+    background-color: #1b4109d4;
+    width: 100%;
+    height: 55px;
+    margin: 30px 0px 0 0;
+    padding: 5px 35px;
+  }
+  .header h1 {
+    float: left;
+    font-size: 32px;
+  }
+  .header i {
+    float: right;
+    padding: 1px;
+    border: 1px solid #323232;
+  }
+  .container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ccd5ae;
+  }
+  .container .main {
+    border-radius: 4px;
+    width: 80%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #1b4109d4;
+    border-radius: 4px;
+  }
+  .main input {
+    width: 85%;
+    margin: 5px 10px;
+    border: 1px solid #1b4109d4;
+    border-radius: 3px;
+  }
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 10px;
+  }
+  .main button {
+    margin: 5px 10px;
+    width: 100px;
+    font-size: 17px;
+    color: #fffafa;
+    background-color: #1b4109d4;
+  }
+  .main button:hover{
+    background-color: #f8edeb;
+    border: 1px solid #1b4109d4;
+    color: #1b4109d4;
+  }
+  .main input {
+    border: 1px solid #1b4109d4;
+    border-radius: 3px;
+    display: inline-block;
+  }
+  i {
+    display: block;
+    margin: 8px 25px;
+  }
+  span {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 5px 30px;
+    color: #1b4109d4;
+  }
+  .container .exp {
+    border: 2px solid #1b4109d4;
+    border-radius: 4px;
+    width: 80%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  .exp input {
+    width: 90%;
+    margin: 5px 10px;
+    border: 1px solid #1b4109d4;
+    border-radius: 3px;
+  }
+  .exp button {
+    margin: 5px 10px;
+    width: 150px;
+    font-size: 17px;
+    color: #fffafa;
+    background-color: #1b4109d4;
+  }
+  .exp button:hover{
+    background-color: #f8edeb;
+    border: 1px solid #1b4109d4;
+    color: #1b4109d4;
+  }
+  .container .row {
+    margin-top: 20px;
+  }
+  #h {
+    visibility: hidden;
+  }
+  
